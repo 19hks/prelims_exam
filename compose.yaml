@@ -1,0 +1,10 @@
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: DockerFile
+    ports:
+      - "8000:8000"  # Access via localhost:8000 on your host
+
+
+# docker compose up -d
